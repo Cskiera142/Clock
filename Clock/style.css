@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron&family=Quicksand:wght@400;600&family=Roboto:wght@700&family=Rubik:ital,wght@0,400;0,600;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: #635858;
+  font-family: Orbitron;
+  font-size: 62.5%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  height: 15rem;
+  width: 40rem;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#clockface {
+  color: #1b97ad;
+  font-size: 4rem;
+  letter-spacing: 0.7rem;
+}
